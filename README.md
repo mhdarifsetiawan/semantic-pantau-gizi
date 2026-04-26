@@ -72,6 +72,15 @@ Kami menyukai kolaborasi! Silakan mulai dengan:
 2. Cari tugas yang tersedia di [Issues](https://github.com/mhdarifsetiawan/semantic-pantau-gizi/issues).
 3. Buat branch baru, koding, dan kirim Pull Request (PR).
 
+## ⚖️ Legal Disclaimer
+
+Proyek ini bersifat independen dan tidak berafiliasi dengan lembaga pemerintah mana pun. Tujuan platform ini adalah murni untuk transparansi publik, partisipasi masyarakat, dan edukasi gizi.
+
+1. Tanggung Jawab Konten: Isi laporan, foto, dan data yang diunggah adalah tanggung jawab sepenuhnya dari pelapor (User-Generated Content).
+2. Akurasi Data: Pengelola platform tidak menjamin akurasi 100% dari data crowdsourcing sebelum melalui proses verifikasi teknis/AI.
+3. Penyalahgunaan: Penggunaan platform untuk penyebaran hoax, ujaran kebencian, atau pencemaran nama baik dilarang keras dan akan dimoderasi.
+4. Lisensi Kode: Seluruh kode sumber disediakan "as-is" di bawah lisensi MIT tanpa jaminan dalam bentuk apa pun.
+
 ## 💰 Dukungan & Kemitraan
 
 Kami menjaga independensi dengan model pendanaan berbasis komunitas. Dukungan Anda membantu biaya operasional server dan infrastruktur.
@@ -87,3 +96,4 @@ Proyek ini dilisensikan di bawah **MIT License**.
 
 ---
 *Membangun teknologi untuk Indonesia yang lebih sehat, transparan, dan cerdas.*
+
