@@ -42,6 +42,22 @@ Didesain untuk **High Performance** dengan **Low Cost Operations**:
 
 Cetak biru sistem, alur data, dan standar koding dapat diakses di [Technical Requirements Document (TRD)](/docs/TRD.md).
 
+## 📂 Project Structure
+
+```text
+semantic-pantau-gizi/
+├── cmd/                # Entry point aplikasi (Main apps)
+│   └── api/
+│       └── main.go     # HTTP Server entry point
+├── docs/               # Dokumentasi teknis & TRD
+├── internal/           # Private library & Business Logic (tidak bisa diimport proyek lain)
+├── pkg/                # Public library (bisa diimport proyek lain)
+├── web/                # Frontend side
+│   └── next-app/       # Next.js (App Router)
+├── go.mod              # Go module definition
+└── README.md           # Pintu utama informasi proyek
+```
+
 ## 📈 Roadmap
 
 - [x] **Phase 0:** Inisialisasi Boilerplate & Dokumen Arsitektur.
