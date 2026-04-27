@@ -69,7 +69,7 @@ semantic-pantau-gizi/
 
 Kami menyukai kolaborasi! Silakan mulai dengan:
 1. Fork repository ini.
-2. Cari tugas yang tersedia di [Issues](https://github.com/mhdarifsetiawan/semantic-pantau-gizi/issues).
+2. Cari tugas yang tersedia di [Issues](https://github.com/semantic-digital-nusantara/semantic-pantau-gizi/issues).
 3. Buat branch baru, koding, dan kirim Pull Request (PR).
 
 ## ⚖️ Legal Disclaimer

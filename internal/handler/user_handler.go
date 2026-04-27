@@ -5,9 +5,9 @@ import (
 	"net/http"
 
 	"github.com/danielgtaylor/huma/v2"
-	"github.com/mhdarifsetiawan/semantic-pantau-gizi/internal/domain"
-	"github.com/mhdarifsetiawan/semantic-pantau-gizi/internal/service"
-	apperrors "github.com/mhdarifsetiawan/semantic-pantau-gizi/pkg/errors"
+	"github.com/semantic-digital-nusantara/semantic-pantau-gizi/internal/domain"
+	"github.com/semantic-digital-nusantara/semantic-pantau-gizi/internal/service"
+	apperrors "github.com/semantic-digital-nusantara/semantic-pantau-gizi/pkg/errors"
 )
 
 type UserHandler struct {

@@ -14,11 +14,11 @@ import (
 	"github.com/go-chi/chi/v5"
 	chimiddleware "github.com/go-chi/chi/v5/middleware"
 
-	"github.com/mhdarifsetiawan/semantic-pantau-gizi/config"
-	"github.com/mhdarifsetiawan/semantic-pantau-gizi/internal/handler"
-	"github.com/mhdarifsetiawan/semantic-pantau-gizi/internal/repository"
-	"github.com/mhdarifsetiawan/semantic-pantau-gizi/internal/service"
-	"github.com/mhdarifsetiawan/semantic-pantau-gizi/pkg/logger"
+	"github.com/semantic-digital-nusantara/semantic-pantau-gizi/config"
+	"github.com/semantic-digital-nusantara/semantic-pantau-gizi/internal/handler"
+	"github.com/semantic-digital-nusantara/semantic-pantau-gizi/internal/repository"
+	"github.com/semantic-digital-nusantara/semantic-pantau-gizi/internal/service"
+	"github.com/semantic-digital-nusantara/semantic-pantau-gizi/pkg/logger"
 )
 
 func main() {

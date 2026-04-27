@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/mhdarifsetiawan/semantic-pantau-gizi/internal/domain"
-	apperrors "github.com/mhdarifsetiawan/semantic-pantau-gizi/pkg/errors"
+	"github.com/semantic-digital-nusantara/semantic-pantau-gizi/internal/domain"
+	apperrors "github.com/semantic-digital-nusantara/semantic-pantau-gizi/pkg/errors"
 )
 
 type userMemoryRepo struct {
