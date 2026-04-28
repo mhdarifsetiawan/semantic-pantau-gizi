@@ -1,0 +1,17 @@
+# Development only — tidak untuk production
+FROM golang:1.24-alpine
+
+RUN apk add --no-cache git ca-certificates tzdata
+
+# Install Air untuk live-reload
+RUN go install github.com/air-verse/air@latest
+
+WORKDIR /app
+
+COPY go.mod go.sum ./
+RUN go mod download
+
+EXPOSE 8080
+
+# Air akan baca .air.toml di root project
+CMD ["air"]

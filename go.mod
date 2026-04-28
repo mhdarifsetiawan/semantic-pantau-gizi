@@ -1,9 +1,9 @@
 module github.com/mhdarifsetiawan/semantic-pantau-gizi
 
-go 1.25.0
+go 1.24.0
 
 require (
-	github.com/danielgtaylor/huma/v2 v2.37.3
+	github.com/danielgtaylor/huma/v2 v2.32.0
 	github.com/go-chi/chi/v5 v5.2.5
 	github.com/lib/pq v1.12.3
 	github.com/rs/zerolog v1.35.1
