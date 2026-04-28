@@ -1,0 +1,33 @@
+services:
+
+  # Override api service untuk development dengan Air live-reload
+  api:
+    build:
+      context: ..
+      dockerfile: deployments/Dockerfile.dev
+    container_name: pantau-gizi-api-dev
+    restart: unless-stopped
+    ports:
+      - "${APP_PORT:-8080}:8080"
+    environment:
+      APP_PORT: "8080"
+      APP_ENV: development
+      LOG_LEVEL: debug
+      DB_HOST: postgres
+      DB_PORT: "5432"
+      DB_USER: ${DB_USER:-postgres}
+      DB_PASSWORD: ${DB_PASSWORD:-postgres}
+      DB_NAME: ${DB_NAME:-pantau_gizi}
+      REDIS_HOST: redis
+      REDIS_PORT: "6379"
+    volumes:
+      # Mount source code untuk Air live-reload
+      - ..:/app
+      - /app/tmp
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    networks:
+      - pantau-gizi-net
