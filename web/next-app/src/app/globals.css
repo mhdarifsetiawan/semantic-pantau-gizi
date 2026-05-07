@@ -1,0 +1,10 @@
+@import 'tailwindcss';
+
+@theme inline {
+  /* You can define tailwind classes here */
+  --color-primary: #008236;
+}
+
+body {
+  /* Include CSS reset if needed/wanted */
+}
